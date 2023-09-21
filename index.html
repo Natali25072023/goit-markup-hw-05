@@ -561,5 +561,30 @@
         </div>
       </div>
     </footer>
+    <form class="modal-window">
+      <p class="form-title">Leave your contacts and we will call you back</p>
+      <label for="username">
+        Name <input type="text" id="username" required
+      /></label>
+
+      <label for="userphone">Phone </label>
+      <input type="tel" id="userphone" required />
+      <label for="email">Email </label>
+      <input type="email" id="email" required />
+      <label>Comment</label>
+      <textarea
+        class="modal-window-coment"
+        nae="coment"
+        rows="5"
+        placeholder="Text input"
+        resize="none"
+      ></textarea>
+
+      <label class="form-down" for="ok">
+        I accept the terms and conditions of the <a href="">Privacy Policy </a>
+        <input type="checkbox" name="zgoda" value="ok" id="ok" />
+      </label>
+      <button type="submit" class="form-button">Send</button>
+    </form>
   </body>
 </html>
