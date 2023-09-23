@@ -660,7 +660,7 @@ fill: transparent;
 }
 
  .close-btn-icon{
-  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
 
 .form-section{
@@ -734,4 +734,8 @@ fill: transparent;
   color:#4d5ae5;
   }
    
-  
+  .zgoda:checked + .form-down > .privacy {
+    background-color:#404bbf;
+    border: none;
+    fill: #F4F4FD;
+  }
